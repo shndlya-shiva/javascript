@@ -46,3 +46,13 @@ let SomeNumber = 33;
 let SomeString = String (SomeNumber);
 console.log(typeof SomeString);
 console.log(SomeString);
+
+// **************** OPERATIONS ****************
+console.log("********** OPERATIONS **********");
+let value1 = 3;
+let negValue1 = -value1;
+console.log(negValue1);
+console.log(1+"2");
+console.log("1"+2);
+console.log(1+2+"3");
+console.log("1"+2+3);
