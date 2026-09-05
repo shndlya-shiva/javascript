@@ -23,3 +23,4 @@ console.log(Name2); // Before trimming whitespace from both ends of the string.
 console.log(Name2.trim()); // Removing whitespace from both ends of the string using the trim() method.
 console.log(Name2.trim().length); // Getting the length of the trimmed string.
 console.log(Name2.includes("Shivansh")); // Checking if the string includes "Shivansh" using the includes() method.
+console.log(Name.split(" ")); // Splitting the string by spaces using the split() method.
