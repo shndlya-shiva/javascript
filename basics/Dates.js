@@ -11,3 +11,8 @@ let myDate3 = new Date("2024-08-13T10:30:00");
 console.log(myDate3.toLocaleString());
 let myDate4 = new Date("11-08-2024");
 console.log(myDate4.toLocaleString());
+let myTimeStamp = Date.now();
+console.log(myTimeStamp);
+console.log(new Date(myTimeStamp).toLocaleString());
+console.log(myDate3.getTime());
+console.log(Math.floor(myDate3.getTime() / 1000));
