@@ -16,3 +16,7 @@ console.log(myTimeStamp);
 console.log(new Date(myTimeStamp).toLocaleString());
 console.log(myDate3.getTime());
 console.log(Math.floor(myDate3.getTime() / 1000));
+let newDate = new Date();
+console.log(newDate);
+console.log(newDate.getMonth());
+console.log(newDate.getDay());
