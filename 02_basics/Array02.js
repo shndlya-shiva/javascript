@@ -15,4 +15,6 @@ const flatArray = NumArray.flat(Infinity);
 console.log(flatArray); // Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 console.log(Array.isArray(arr1)); // Output: true
 console.log(Array.isArray(NumArray)); // Output: true
-console.log(Array.isArray("Shiva")); // Output: true
+console.log(Array.isArray("Shiva")); // Output: false
+console.log(Array.from("Shiva")); // Output: ["S", "h", "i", "v", "a"]
+console.log(Array.from({name: "Shiva"})); // Output: [undefined]
