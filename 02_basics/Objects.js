@@ -4,5 +4,7 @@
 const myObj = {
     name: "Shiva",
     age: 20,
-    
+
 }
+console.log(myObj.name); // Output: { name: 'Shiva'}
+console.log(myObj["name"]); // Output: { name: 'Shiva' }
