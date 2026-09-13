@@ -7,4 +7,4 @@ const myObj = {
 
 }
 console.log(myObj.name); // Output: { name: 'Shiva'}
-console.log(myObj["name"]); // Output: { name: 'Shiva' }
+console.log(myObj["name"]); // Output: { name: 'Shiva'}
