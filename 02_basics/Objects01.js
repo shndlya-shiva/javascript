@@ -1,4 +1,3 @@
-// singleton object
 // object literals
 // Object.create() // creates a new object with the specified prototype object and properties.
 const mySym = Symbol("key1"); // Way to create a unique key for an object property
