@@ -26,3 +26,25 @@ console.log(regularUser.fullname?.userfullname.middlename);
 // if the property does not exist, it will return undefined instead of throwing an error. 
 // Output: undefined, accessing nested object properties using optional chaining operator, 
 // it will return undefined if the property does not exist
+const object1 = {1: "a", 2: "b", 3: "c"};
+const object2 = {4: "d", 5: "e", 6: "f"};
+const object3 = {...object1, ...object2}; // merging two objects using spread operator
+console.log(object3); // Output: { '1': 'a', '2': 'b', '3': 'c', '4': 'd', '5': 'e', '6': 'f' }, merged object
+const object4 = Object.assign({}, object1, object2); // merging two objects using Object.assign() method
+console.log(object4); // Output: { '1': 'a', '2': 'b', '3': 'c', '4': 'd', '5': 'e', '6': 'f' }, merged object
+const user = [
+    {
+    id: 1,
+    email: "xyz@gmail.com"
+    },
+    {
+    id: 2,
+    email: "abc@gmail.com"
+    }
+]
+console.log(tinderuser); // Output: { Id: '12345', Name: 'Shiva', IsLoggedIn: false }, accessing object properties
+console.log(Object.keys(tinderuser)); // Output: [ 'Id', 'Name', 'IsLoggedIn' ], accessing object keys
+console.log(Object.values(tinderuser)); // Output: [ '12345', 'Shiva', false ], accessing object values
+console.log(Object.entries(tinderuser)); // Output: [ [ 'Id', '12345' ], [ 'Name', 'Shiva' ], [ 'IsLoggedIn', false ] ], accessing object entries
+console.log(tinderuser.hasOwnProperty("Id")); // Output: true, checking if the object has a property
+console.log(tinderuser.hasOwnProperty("UserName")); // Output: false, checking if the object has a property
