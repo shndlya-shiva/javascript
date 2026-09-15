@@ -15,4 +15,4 @@ const regularUser = {
         }
     }
 }
-console.log(regularUser.fullname.userfullname.firstname); // Output: Shiva, accessing nested object properties 
+console.log(regularUser.fullname.userfullname); // Output: Shiva, accessing nested object properties 
